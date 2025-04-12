@@ -13,14 +13,6 @@ Entrar al nodo maestro con el siguiente comando docker exec -it namenode bash
 Visualizar el panel de control pero en este caso solo tenemos uno
 Apagar el contenedor de Docker se usa el siguiente comando  stop-dfs.s
 
-## Hadoop Docker
-
-Iniciar el contenedor de Docker
-
-bash
-docker-compose up -d
-
-```
 # Ejemplo Para contar Palabras
 ```
 primero se descarga el archivo .jar
