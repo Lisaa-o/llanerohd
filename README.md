@@ -6,16 +6,16 @@ Version 2.0.0 introduces uses wait_for_it script for the cluster startup
 
 # Hadoop Docker
 ```
-Iniciar el contenedor de Docker
-En la carpeta que tenemos el Docker Abrir una terminal ```docker-compose up -d
-Para poder comprobar si los contenedores se estan ejecutando se usa el siguiente comando  docker ps
-Entrar al nodo maestro con el siguiente comando docker exec -it namenode bash
-Visualizar el panel de control pero en este caso solo tenemos uno
-Apagar el contenedor de Docker se usa el siguiente comando  stop-dfs.s
 
-# Ejemplo Para contar Palabras
+* En la carpeta que tenemos el Docker Abrir una terminal ```docker-compose up -d
+* Para poder comprobar si los contenedores se estan ejecutando se usa el siguiente comando  docker ps
+* Entrar al nodo maestro con el siguiente comando docker exec -it namenode bash
+* Visualizar el panel de control pero en este caso solo tenemos uno
+* Apagar el contenedor de Docker se usa el siguiente comando  stop-dfs.s
 ```
-primero se descarga el archivo .jar
+
+# Ejemplo para contar palabras
+``` primero se descarga el archivo .jar
 Despues se descarga el archivo con nombre hadoop-mapreduce-examples-2.7.1-sources.jar
 Lo siguiente es mover al archivo hadoop-mapreduce-examples-2.7.1-sources.jar a la misma carpeta donde esta el repositorio Docker
 ```
