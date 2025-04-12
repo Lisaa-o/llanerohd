@@ -7,11 +7,19 @@ Version 2.0.0 introduces uses wait_for_it script for the cluster startup
 # Hadoop Docker
 ```
 Iniciar el contenedor de Docker
-En la carpeta que tenemos el Docker docker-compose up -d, para comprobar si los contenedores...
+En la carpeta que tenemos el Docker Abrir una terminal ```docker-compose up -d
 Para poder comprobar si los contenedores se estan ejecutando se usa el siguiente comando  docker ps
 Entrar al nodo maestro con el siguiente comando docker exec -it namenode bash
 Visualizar el panel de control pero en este caso solo tenemos uno
-Apagar el contenedor de Docker se usa el siguiente comando  stop-dfs.sh
+Apagar el contenedor de Docker se usa el siguiente comando  stop-dfs.s
+
+## Hadoop Docker
+
+Iniciar el contenedor de Docker
+
+bash
+docker-compose up -d
+
 ```
 # Ejemplo Para contar Palabras
 ```
